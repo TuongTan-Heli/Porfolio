@@ -1,0 +1,6 @@
+@import './Style.css';
+
+.test {
+  color: var(--color-true-blue);
+  background-color: var(--color-light);
+}

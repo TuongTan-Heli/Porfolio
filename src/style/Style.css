@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+:root {
+  --color-true-blue: #0073cf;
+  --color-light: rgb(141, 179, 141);
+}
