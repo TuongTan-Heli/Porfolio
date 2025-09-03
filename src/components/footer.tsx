@@ -21,7 +21,7 @@ export default function Footer() {
                 <a href="mailto:tanquytuong@gmail.com">tanquytuong@gmail.com</a>
             </p>
             <p className="">
-                <a href="/data/Tuong-Tan_CV.pdf"
+                <a href="../data/Tuong-Tan_CV.pdf"
                     download="Tuong-Tan_CV.pdf"
                     className="hover:underline flex items-center justify-center gap-2">
                     <MdOutlineFileDownload /> Download my CV?
