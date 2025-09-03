@@ -1,7 +1,66 @@
 @import "tailwindcss";
 
 :root {
-  --color-true-blue: #0073cf;
-  --color-light: rgb(141, 179, 141);
-  --color-red: red;
+  font-family: 'courier new';
+  background-color: var(--color-russian-violet);
+  color: var(--color-alice-blue);
+  /* Russian Violet bg*/
+  --color-russian-violet: #231942;
+  --color-russian-violet-100: #07050d;
+  --color-russian-violet-200: #0e0a1b;
+  --color-russian-violet-300: #150f28;
+  --color-russian-violet-400: #1c1435;
+  --color-russian-violet-500: #231942;
+  --color-russian-violet-600: #44307f;
+  --color-russian-violet-700: #6549ba;
+  --color-russian-violet-800: #9986d1;
+  --color-russian-violet-900: #ccc2e8;
+
+  /* Bone secondary*/
+  --color-bone: #d8d0c1;
+  --color-bone-100: #322c1f;
+  --color-bone-200: #64573f;
+  --color-bone-300: #97835e;
+  --color-bone-400: #b8aa8e;
+  --color-bone-500: #d8d0c1;
+  --color-bone-600: #e0d9cd;
+  --color-bone-700: #e7e3d9;
+  --color-bone-800: #efece6;
+  --color-bone-900: #f7f6f2;
+
+  /* Ebony primary*/
+  --color-ebony: #51513d;
+  --color-ebony-100: #10100c;
+  --color-ebony-200: #212119;
+  --color-ebony-300: #313125;
+  --color-ebony-400: #414131;
+  --color-ebony-500: #51513d;
+  --color-ebony-600: #7b7b5d;
+  --color-ebony-700: #a0a081;
+  --color-ebony-800: #c0c0ab;
+  --color-ebony-900: #dfdfd5;
+
+  /* Cool Gray card*/
+  --color-cool-gray: #7c809b;
+  --color-cool-gray-100: #181920;
+  --color-cool-gray-200: #31333f;
+  --color-cool-gray-300: #494c5f;
+  --color-cool-gray-400: #62667f;
+  --color-cool-gray-500: #7c809b;
+  --color-cool-gray-600: #979aaf;
+  --color-cool-gray-700: #b1b4c3;
+  --color-cool-gray-800: #cbcdd7;
+  --color-cool-gray-900: #e5e6eb;
+
+  /* Alice Blue text*/
+  --color-alice-blue: #e8f1f2;
+  --color-alice-blue-100: #223a3d;
+  --color-alice-blue-200: #447479;
+  --color-alice-blue-300: #6fa8ae;
+  --color-alice-blue-400: #abccd0;
+  --color-alice-blue-500: #e8f1f2;
+  --color-alice-blue-600: #edf4f5;
+  --color-alice-blue-700: #f1f7f7;
+  --color-alice-blue-800: #f6f9fa;
+  --color-alice-blue-900: #fafcfc;
 }

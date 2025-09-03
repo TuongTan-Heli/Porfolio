@@ -1,6 +1,28 @@
 @import './Style.css';
+.bg-primary {
+  background-color: var(--color-russian-violet);
+}
 
-.test {
-  color: var(--color-true-blue);
-  background-color: var(--color-light);
+.bg-secondary {
+  background-color: var(--color-ebony);
+}
+
+.bg-secondary:hover {
+  background-color: var(--color-ebony-500);
+}
+
+.hover-bg-secondary:hover {
+  background-color: var(--color-ebony-400)
+}
+
+.text-primary {
+  color: var(--color-alice-blue);
+}
+
+.text-secondary {
+  color: var(--color-bone);
+}
+
+.header {
+
 }
