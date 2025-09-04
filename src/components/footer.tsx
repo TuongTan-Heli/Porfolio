@@ -34,8 +34,8 @@ export default function Footer() {
 
     ]
     return (
-        <footer className="abosolute bottom-0 pt-4 pb-4 bg-secondary gap-2 ">
-            <LoopMarquee items={loopItems} speedSec={10} gapClass="gap-15" itemWidthClass="w-auto flex items-center justify-center gap-2" />
+        <footer className="abosolute bottom-0 pt-4 pb-4 bg-secondary ">
+            <LoopMarquee items={loopItems} speedSec={10} gapClass="gap-16 md:gap-24 lg:gap-40" itemWidthClass="w-auto flex items-center justify-center" />
         </footer>
     );
 }
