@@ -4,6 +4,7 @@ import { CiMail } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
 import LoopMarquee from './LoopMarquee';
+import CV from '../data/Tuong-Tan-CV.pdf'
 
 export default function Footer() {
     const loopItems = [
@@ -23,7 +24,7 @@ export default function Footer() {
             <a href="mailto:tanquytuong@gmail.com">tanquytuong@gmail.com</a>
         </p>,
         <p className="flex items-center justify-center gap-2">
-            <a href="src\data\Tuong-Tan-CV.pdf"
+            <a href={CV}
                 download="Tuong-Tan_CV.pdf"
                 className="hover:underline flex items-center justify-center gap-2">
                 <MdOutlineFileDownload /> Download my CV?

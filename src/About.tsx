@@ -7,6 +7,7 @@ import introData from './data/intro.json';
 import React, { useRef } from 'react';
 import CustomCursor from './components/customcursor';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import profilePic from './assets/TQT-01.jpeg'
 const About = () => {
   const stackContainerRef = useRef(null);
   const { scrollYProgress: progress1 } = useScroll({
@@ -22,7 +23,7 @@ const About = () => {
     <motion.div style={{ backgroundColor: bgColor }}>
       <Header />
       <div className="container mx-auto columns-2 p-4">
-        <img src="src\assets\TQT-01.jpeg" alt="Tuong-Tan" className="d-block" />
+        <img src={profilePic} alt="Tuong-Tan" className="d-block" />
         <div className='container mx-auto p-4'>
           <TypeWriter text="<Greeting>Hello, World! I'm Tuong</Greeting>" typeSpeed={120} pauseDuration={5000} className='text-sm md:text-xl lg:text-3xl font-bold'></TypeWriter>
           <div>
@@ -37,7 +38,7 @@ const About = () => {
 
       </div>
       <div className="container mx-auto p-4" ref={stackContainerRef}>
-        <img src="src\assets\TQT-01.jpeg" alt="Tuong-Tan" className="d-block" />
+        <img src={profilePic} alt="Tuong-Tan" className="d-block" />
       </div>
       <Footer />
       <CustomCursor />
