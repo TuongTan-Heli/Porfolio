@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import '../style/App.css';
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";

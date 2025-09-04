@@ -3,7 +3,7 @@ import { IoLocationSharp } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { MdOutlineFileDownload } from "react-icons/md";
-import LoopMarquee from './loopMarquee';
+import LoopMarquee from './LoopMarquee';
 
 export default function Footer() {
     const loopItems = [
