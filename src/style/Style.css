@@ -2,7 +2,7 @@
 
 :root {
   font-family: 'courier new';
-  background-color: var(--color-russian-violet);
+  /* background-color: var(--color-russian-violet); */
   color: var(--color-alice-blue);
   /* Russian Violet bg*/
   --color-russian-violet: #231942;
@@ -15,6 +15,18 @@
   --color-russian-violet-700: #6549ba;
   --color-russian-violet-800: #9986d1;
   --color-russian-violet-900: #ccc2e8;
+
+  /* Lemon Chiffon */
+  --color-lemon-chiffon: #f2efc7;
+  --color-lemon-chiffon-100: #474311;
+  --color-lemon-chiffon-200: #8e8721;
+  --color-lemon-chiffon-300: #d0c637;
+  --color-lemon-chiffon-400: #e1da7e;
+  --color-lemon-chiffon-500: #f2efc7;
+  --color-lemon-chiffon-600: #f4f2d1;
+  --color-lemon-chiffon-700: #f7f5dc;
+  --color-lemon-chiffon-800: #faf8e8;
+  --color-lemon-chiffon-900: #fcfcf3;
 
   /* Bone secondary*/
   --color-bone: #d8d0c1;

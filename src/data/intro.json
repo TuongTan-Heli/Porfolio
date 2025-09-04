@@ -1,0 +1,19 @@
+{
+    "blocks": [
+        {
+            "tag": "h1",
+            "class": "text-s md:text-lg lg:text-3xl font-bold",
+            "content": "I'm an IT Developer with a passion for creating innovative solutions that make differences."
+        },
+        {
+            "tag": "span",
+            "class": "text-xs md:text-base lg:text-xl text-secondary",
+            "content": "My expertise focuses on different areas of development including: web development, mobile app development, software engineering, microservices, and cloud computing."
+        },
+        {
+            "tag": "span",
+            "class": "text-xs md:text-base lg:text-xl text-secondary",
+            "content": "If you're looking for a reliable and skilled IT developer, look no further! Let's work together to bring your ideas to life."
+        }
+    ]
+}

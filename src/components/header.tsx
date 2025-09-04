@@ -1,11 +1,14 @@
 import { Link } from "react-router-dom";
 import '../style/App.css';
-import { useState } from "react";
+import { use, useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => setIsOpen(false));
+        },[]);
     return (
         <header className="bg-secondary">
             <div className="flex container mx-auto items-center justify-between p-2">
@@ -22,8 +25,8 @@ export default function Header() {
                 </nav>
                 <AnimatePresence>
                     {isOpen && (
-
                         <motion.div className='absolute w-full h-full top-0 left-0 bg-primary'
+                        onScroll={() => setIsOpen(false)}
                             initial={{ opacity: 0, y: -50 }}
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: -50 }}
