@@ -256,7 +256,7 @@ const About = () => {
       </div>
       <div
         ref={EducationContainerRef}
-        className="container mx-auto p-4 h-[600vh]"
+        className="container mx-auto p-4 min-h-[600vh]"
       >
         {isInEducationView && (
           <motion.div
@@ -264,7 +264,7 @@ const About = () => {
             className="sticky left-4 top-0 w-2 h-[100vh] bg-white rounded"
           />
         )}
-        <div className="sticky top-0 left-0 w-full h-[100vh] grid grid-rows-10 gap-4 p-8 md:p-16">
+        <div className="sticky top-0 left-0 w-full min-h-[100vh] grid grid-rows-10 gap-4 p-8 md:p-16">
           {/* Header: 2 rows */}
           <h1 className="text-3xl md:text-4xl font-bold text-center row-span-2">
             Education & Certifications
