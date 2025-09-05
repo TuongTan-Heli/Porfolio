@@ -5,7 +5,7 @@ import TypeWriter from './components/TypeWriter';
 import './style/App.css';
 import React, { useRef } from 'react';
 import CustomCursor from './components/customcursor';
-import { AnimatePresence, motion, MotionValue, useInView, useScroll, useTransform } from 'framer-motion';
+import { AnimatePresence, motion, useInView, useScroll, useTransform } from 'framer-motion';
 import Navigator from './components/navigator';
 import profilePic from './assets/TQT-01.jpeg'
 import techData from './data/tech.json';
