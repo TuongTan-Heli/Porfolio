@@ -34,7 +34,7 @@ const Navigator: React.FC<NavigatorProps> = ({ reflist, iconlist = [] }) => {
   };
 
   return (
-    <div className="fixed top-4 left-4 flex flex-col gap-4 z-50 bg-[#3e3e3f] p-2 rounded-full backdrop-blur-sm">
+    <div className="fixed top-16 left-4 flex flex-col gap-4 z-50 bg-[#3e3e3f] p-2 rounded-full backdrop-blur-sm">
       {reflist.map((ref, i) => (
         <motion.button
           key={i}

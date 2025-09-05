@@ -5,7 +5,7 @@ import TypeWriter from './components/TypeWriter';
 import './style/App.css';
 import React, { useRef } from 'react';
 import CustomCursor from './components/customcursor';
-import { AnimatePresence, motion, useInView, useScroll, useTransform } from 'framer-motion';
+import { AnimatePresence, motion, MotionValue, useInView, useScroll, useTransform } from 'framer-motion';
 import Navigator from './components/navigator';
 import profilePic from './assets/TQT-01.jpeg'
 import techData from './data/tech.json';
@@ -132,7 +132,7 @@ const About = () => {
     exit: { opacity: 0, y: -20 },
   };
   return (
-    <motion.div style={{ backgroundColor: bgColor }} ref={containerRef} >
+    <motion.div style={{ backgroundColor: bgColor,background:'#151517' }} ref={containerRef} className='test'>
       <Navigator
         reflist={[aboutContainerRef, stackContainerRef, EducationContainerRef]}
         iconlist={[

@@ -20,7 +20,7 @@ export default function LoopMarquee({
 
   const startLoop = () =>
     controls.start({
-      x: ["0%", "-100%"],            
+      x: ["0%", "-50%"],            
       transition: {
         duration: speedSec,
         ease: "linear",
