@@ -1,0 +1,15 @@
+{
+    "certs": [
+        {
+            "name": "AZ-900: Microsoft Azure Fundamentals",
+            "time": "Apr 2023",
+            "description": "Microsoft Certified: Azure Fundamentals demonstrates foundational level knowledge of cloud services and how those services are provided with Microsoft Azure."
+        },
+        {
+            "name": "AEM Professional: Adobe Experience Manager Sites Developer",
+            "time": "Jul 2024",
+            "description": "Adobe Certified Professional - Adobe Experience Manager Sites Developer exam validates that the candidate has the knowledge and skills to work with Adobe Experience Manager (AEM) as a developer."
+        }
+        
+    ]
+}

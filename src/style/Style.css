@@ -3,7 +3,7 @@
 :root {
   font-family: 'courier new';
   /* background-color: var(--color-russian-violet); */
-  color: var(--color-alice-blue);
+  color: var(--color-bone);
   /* Russian Violet bg*/
   --color-russian-violet: #231942;
   --color-russian-violet-100: #07050d;
@@ -75,4 +75,7 @@
   --color-alice-blue-700: #f1f7f7;
   --color-alice-blue-800: #f6f9fa;
   --color-alice-blue-900: #fafcfc;
+
+  --erie-black: #191716;
+  --xanthous: #E6AF2E;
 }

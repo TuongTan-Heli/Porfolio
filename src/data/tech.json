@@ -1,0 +1,168 @@
+{
+    "blocks": [
+        {
+            "tag": "span",
+            "class": "text-lg lg:text-xl",
+            "content": "I have experience in delivering scalable, robust solutions, with high performance and maintainability."
+        },
+        {
+            "tag": "span",
+            "class": "text-lg lg:text-xl",
+            "content": "My expertise focuses on different areas of development including:"
+        }
+    ],
+    "focuses": [
+        "Web development",
+        "Mobile app development",
+        "Software engineering",
+        "Micro-services",
+        "Cloud computing"
+    ],
+    "stack": [
+        {
+            "name": "React/React Native",
+            "logo": "IoLogoReact",
+            "type": "Frontend"
+        },
+        {
+            "name": "Vue",
+            "logo": "FaVuejs",
+            "type": ""
+        },
+        {
+            "name": "Javascript",
+            "logo": "IoLogoJavascript",
+            "type": "Frontend"
+        },
+        {
+            "name": "TypeScript",
+            "logo": "SiTypescript",
+            "type": ""
+        },
+        {
+            "name": "HTML5",
+            "logo": "FaHtml5",
+            "type": "Frontend"
+        },
+        {
+            "name": "Css/Less",
+            "logo": "IoLogoCss3",
+            "type": "Frontend"
+        },
+        {
+            "name": "Tailwind",
+            "logo": "RiTailwindCssFill",
+            "type": "Frontend"
+        },
+        {
+            "name": ".NET C#",
+            "logo": "TbBrandCSharp",
+            "type": ""
+        },
+        {
+            "name": "Java",
+            "logo": "FaJava",
+            "type": ""
+        },
+        {
+            "name": "GraphQL",
+            "logo": "GrGraphQl",
+            "type": ""
+        },
+        {
+            "name": "RestFUL API",
+            "logo": "GrTechnology",
+            "type": ""
+        },
+        {
+            "name": "SQL/NoSQL",
+            "logo": "TbSql",
+            "type": ""
+        },
+        {
+            "name": "Azure",
+            "logo": "VscAzureDevops",
+            "type": ""
+        },
+        {
+            "name": "Google Cloud",
+            "logo": "SiGooglecloud",
+            "type": ""
+        },
+        {
+            "name": "Algolia",
+            "logo": "FaAlgolia",
+            "type": ""
+        },
+        {
+            "name": "Visual Studio/VS Code",
+            "logo": "BiLogoVisualStudio",
+            "type": ""
+        },
+        {
+            "name": "Git",
+            "logo": "FaGitAlt",
+            "type": ""
+        },
+        {
+            "name": "Github",
+            "logo": "FaGithub",
+            "type": ""
+        },
+        {
+            "name": "Bitbucket",
+            "logo": "FaBitbucket",
+            "type": ""
+        },
+        {
+            "name": "Node.js",
+            "logo": "FaNodeJs",
+            "type": ""
+        },
+        {
+            "name": "Express.js",
+            "logo": "GrTechnology",
+            "type": ""
+        },
+        {
+            "name": "SQL Server",
+            "logo": "DiMsqlServer",
+            "type": ""
+        },
+        {
+            "name": "MySQL",
+            "logo": "DiMysql",
+            "type": ""
+        },
+        {
+            "name": "XML",
+            "logo": "LuCodeXml",
+            "type": ""
+        },
+        {
+            "name": "Firebase",
+            "logo": "DiFirebase",
+            "type": ""
+        },
+        {
+            "name": "Postman",
+            "logo": "SiPostman",
+            "type": ""
+        },
+        {
+            "name": "Docker",
+            "logo": "FaDocker",
+            "type": ""
+        },
+        {
+            "name": "Jira",
+            "logo": "FaJira",
+            "type": ""
+        },
+        {
+            "name": "Confluence",
+            "logo": "FaConfluence",
+            "type": ""
+        }
+    ]
+}

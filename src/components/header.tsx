@@ -10,7 +10,7 @@ export default function Header() {
         window.addEventListener("scroll", () => setIsOpen(false));
         },[]);
     return (
-        <header className="bg-secondary">
+        <header className="bg-[transparent]">
             <div className="flex container mx-auto items-center justify-between p-2">
                 <h1 className="text-2xl font-bold">Tuong Tan Developer</h1>
                 <button

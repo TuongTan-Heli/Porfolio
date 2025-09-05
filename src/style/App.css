@@ -4,7 +4,7 @@
 }
 
 .bg-secondary {
-  background-color: var(--color-ebony);
+  background-color: transparent;
 }
 
 .bg-secondary:hover {
@@ -16,11 +16,11 @@
 }
 
 .text-primary {
-  color: var(--color-alice-blue);
+  color: var(--color-bone);
 }
 
 .text-secondary {
-  color: var(--color-bone);
+  color: var(--color-alice-blue);
 }
 
 .header {
