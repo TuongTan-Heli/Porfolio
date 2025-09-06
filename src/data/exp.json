@@ -1,0 +1,227 @@
+{
+    "experiences": [
+        {
+            "name": "Data Migration system",
+            "time": "Jul 2024 - Feb 2025",
+            "company": "Netcompany A/S",
+            "title": ".NET Developer",
+            "description": "Designed and implemented data migration pipelines",
+            "stack": [
+                {
+                    "name": ".NET C#",
+                    "logo": "TbBrandCSharp",
+                    "type": ""
+                },
+                {
+                    "name": "RestFUL API",
+                    "logo": "GrTechnology",
+                    "type": ""
+                },
+                {
+                    "name": "SQL Server",
+                    "logo": "DiMsqlServer",
+                    "type": ""
+                },
+                {
+                    "name": "Azure",
+                    "logo": "VscAzureDevops",
+                    "type": ""
+                }
+            ],
+            "work": [
+                "Data migration pipelines",
+                "High security",
+                "Data validation/enrichment",
+                "Fast & stable"
+            ],
+            "link": "",
+            "git": ""
+        },
+        {
+            "name": "AEM Web development",
+            "time": "Jul 2022 - Jul 2024",
+            "company": "Netcompany A/S",
+            "title": "Full stack developer",
+            "description": "Developed content management website using Adobe AEM",
+            "stack": [
+                {
+                    "name": "Vue",
+                    "logo": "FaVuejs",
+                    "type": ""
+                },
+                {
+                    "name": "Css/Less",
+                    "logo": "IoLogoCss3",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "Adobe Experience Manager",
+                    "logo": "SiAdobe",
+                    "type": ""
+                },
+                {
+                    "name": "Algolia",
+                    "logo": "FaAlgolia",
+                    "type": ""
+                },
+                {
+                    "name": "Java",
+                    "logo": "FaJava",
+                    "type": ""
+                },
+                {
+                    "name": "GraphQL",
+                    "logo": "GrGraphQl",
+                    "type": ""
+                },
+                {
+                    "name": "MySQL",
+                    "logo": "DiMysql",
+                    "type": ""
+                },
+                {
+                    "name": "Jira",
+                    "logo": "FaJira",
+                    "type": ""
+                },
+                {
+                    "name": "Confluence",
+                    "logo": "FaConfluence",
+                    "type": ""
+                },
+                {
+                    "name": "Javascript",
+                    "logo": "IoLogoJavascript",
+                    "type": "Frontend"
+                }
+            ],
+            "work": [
+                "Drag/drop, configurable components",
+                "Structured content",
+                "Highly responsive",
+                "Real-time searching"
+            ],
+            "link": "",
+            "git": ""
+        },
+        {
+            "name": "Client Engagement training",
+            "time": "May 2023",
+            "company": "Netcompany A/S",
+            "title": "Software developer",
+            "description": "Training program in Denmark",
+            "stack": [
+                {
+                    "name": ".NET C#",
+                    "logo": "TbBrandCSharp",
+                    "type": ""
+                }
+            ],
+            "work": ["Explore how Agile principles are applied across the entire software development lifecycle, from planning and development to testing and delivery."],
+            "link": "",
+            "git": ""
+        },
+        {
+            "name": "Utilies",
+            "time": "Apr 2025 - Present",
+            "company": "Personal project",
+            "title": "Full stack developer",
+            "description": "Designed and developed mobile application that combines multiple features.",
+            "stack": [
+                {
+                    "name": "Javascript",
+                    "logo": "IoLogoJavascript",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "TypeScript",
+                    "logo": "SiTypescript",
+                    "type": ""
+                },
+                {
+                    "name": "React Native",
+                    "logo": "IoLogoReact",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "RestFUL API",
+                    "logo": "GrTechnology",
+                    "type": ""
+                },
+                {
+                    "name": "Google Cloud",
+                    "logo": "SiGooglecloud",
+                    "type": ""
+                },
+                {
+                    "name": "Firebase",
+                    "logo": "DiFirebase",
+                    "type": ""
+                },
+                {
+                    "name": "Algolia",
+                    "logo": "FaAlgolia",
+                    "type": ""
+                },
+                {
+                    "name": "Express.js",
+                    "logo": "GrTechnology",
+                    "type": ""
+                }
+            ],
+            "work": [
+                "Expense tracking",
+                "Task tracking",
+                "Secured with authentication"
+            ],
+            "link": "",
+            "git": "https://github.com/TuongTan-Heli/Utilies-Android"
+        },
+        {
+            "name": "Portfolio",
+            "time": "Sep 2025",
+            "company": "Personal project",
+            "title": "Front-end developer",
+            "description": "Designed and developed responsive, storytelling portfolio website",
+            "stack": [
+                {
+                    "name": "React/React Native",
+                    "logo": "IoLogoReact",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "TypeScript",
+                    "logo": "SiTypescript",
+                    "type": ""
+                },
+                {
+                    "name": "HTML5",
+                    "logo": "FaHtml5",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "Css/Less",
+                    "logo": "IoLogoCss3",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "Tailwind",
+                    "logo": "RiTailwindCssFill",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "Framer Motion",
+                    "logo": "TbBrandFramerMotion",
+                    "type": ""
+                }
+            ],
+            "work": [
+                "Highly responsive",
+                "Animated components",
+                "Storytelling style"
+            ],
+            "link": "",
+            "git": ""
+        }
+    ]
+}

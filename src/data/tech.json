@@ -65,6 +65,16 @@
             "type": ""
         },
         {
+            "name": "Adobe Experience Manager",
+            "logo": "SiAdobe",
+            "type": ""
+        },
+        {
+            "name": "Framer Motion",
+            "logo": "TbBrandFramerMotion",
+            "type": ""
+        },
+        {
             "name": "GraphQL",
             "logo": "GrGraphQl",
             "type": ""
@@ -164,5 +174,6 @@
             "logo": "FaConfluence",
             "type": ""
         }
+        
     ]
 }
