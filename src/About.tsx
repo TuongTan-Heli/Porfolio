@@ -14,6 +14,7 @@ import certifications from './data/cert.json';
 import { iconMap } from './components/icons'
 import { FaCode, FaUserCircle } from 'react-icons/fa';
 import { GrCertificate } from 'react-icons/gr';
+import ScrollNotice from './components/scrollNotice';
 
 const About = () => {
   const stackContainerRef = useRef<HTMLDivElement>(null);
@@ -74,7 +75,7 @@ const About = () => {
     exit: { opacity: 0, y: -20 },
   };
   return (
-    <motion.div style={{ backgroundColor: bgColor,background:'#151517' }} ref={containerRef}>
+    <motion.div style={{ backgroundColor: bgColor, background: '#151517' }} ref={containerRef}>
       <Navigator
         reflist={[aboutContainerRef, stackContainerRef, EducationContainerRef]}
         iconlist={[
@@ -83,6 +84,7 @@ const About = () => {
           <GrCertificate />
         ]}
       />
+      <ScrollNotice />
       <Header />
       <div className="container mx-auto p-4 h-screen items-center gap-4 grid grid-cols-1 md:grid-cols-3" ref={aboutContainerRef}>
         <img
@@ -138,7 +140,7 @@ const About = () => {
             className="gap-5 flex flex-col">
             {techData.focuses.map((focus, i) => (
               <motion.div key={i} variants={itemVariants} className="text-2xl font-bold">
-                • {focus}   
+                • {focus}
               </motion.div>
             ))}
           </motion.div>

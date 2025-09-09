@@ -25,7 +25,7 @@ const Stories = () => {
         Coding is a continuous journey. Along the way, I’ve collected experiences, knowledge, and stories that shaped me as a developer. If you’d like to know more about my path, I’ve shared some of them here
       </motion.h1>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 p-6 items-start">
-        <div className="flex flex-col rounded-2xl bg-[#1e1e21] p-4 gap-4 sticky top-8 order-1 self-auto md:order-2 md:self-start">
+        <div className="flex flex-col rounded-2xl bg-[#1e1e21] p-4 gap-4  top-8 order-1 self-auto md:order-2 md:self-start md:sticky">
           <h3 className="text-lg font-semibold">Find me via:</h3>
           <a
             href="https://linkedin.com/in/tan-quy-tuong"
