@@ -12,6 +12,7 @@
   }
 }
 
+
 :root {
 
   font-family: 'courier new';
@@ -89,6 +90,5 @@
   --color-alice-blue-800: #f6f9fa;
   --color-alice-blue-900: #fafcfc;
 
-  --erie-black: #191716;
-  --xanthous: #E6AF2E;
+  --color-hover-primary: rgba(100,116,139,0.2);
 }

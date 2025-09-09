@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../style/App.css';
+import '../style/Style.css';
 import { useEffect, useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
@@ -19,9 +20,9 @@ export default function Header() {
                     <GiHamburgerMenu />
                 </button>
                 <nav className="hidden md:flex">
-                    <Link className="hover-bg-secondary p-4 rounded-md" to="/">About me</Link>
-                    <Link className="hover-bg-secondary p-4 rounded-md" to="/experience">My working experience</Link>
-                    <Link className="hover-bg-secondary p-4 rounded-md" to="/stories">My stories</Link>
+                    <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md" to="/">About me</Link>
+                    <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md" to="/experience">My working experience</Link>
+                    <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md" to="/stories">My stories</Link>
                 </nav>
                 <AnimatePresence>
                     {isOpen && (
@@ -42,9 +43,9 @@ export default function Header() {
                                     onClick={() => setIsOpen(false)}>
                                     <MdClose />
                                 </motion.button>
-                                <Link className="hover-bg-secondary p-4 rounded-md w-full text-center" to="/">About me</Link>
-                                <Link className="hover-bg-secondary p-4 rounded-md w-full text-center" to="/experience">My working experience</Link>
-                                <Link className="hover-bg-secondary p-4 rounded-md w-full text-center" to="/stories">My stories</Link>
+                                <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md w-full text-center" to="/">About me</Link>
+                                <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md w-full text-center" to="/experience">My working experience</Link>
+                                <Link className="hover:bg-[var(--color-hover-primary)] p-4 rounded-md w-full text-center" to="/stories">My stories</Link>
                                 <p className="absolute bottom-4">© {new Date().getFullYear()} Tuong Tan </p>
                             </nav>
                         </motion.div>

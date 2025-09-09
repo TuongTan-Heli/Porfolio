@@ -4,6 +4,7 @@ import About from './About.tsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Exp from './Exp.tsx'
 import Stories from './Stories.tsx'
+import Story from './Story.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<About />} />
         <Route path="/experience" element={<Exp />} />
         <Route path="/stories" element={<Stories />} />
+        <Route path="/story" element={<Story />} />
       </Routes>
     </BrowserRouter>
 

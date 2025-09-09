@@ -74,7 +74,7 @@ const About = () => {
     exit: { opacity: 0, y: -20 },
   };
   return (
-    <motion.div style={{ backgroundColor: bgColor,background:'#151517' }} ref={containerRef} className='test'>
+    <motion.div style={{ backgroundColor: bgColor,background:'#151517' }} ref={containerRef}>
       <Navigator
         reflist={[aboutContainerRef, stackContainerRef, EducationContainerRef]}
         iconlist={[
@@ -193,7 +193,7 @@ const About = () => {
           animate={isInTextView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
         >
-          Yet, I'm always eager to tackle new challenges and learn new technologies.
+          Yet, I always eager to tackle new challenges and learn new technologies.
         </motion.h1>
       </div>
       <div
