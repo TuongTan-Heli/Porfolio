@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence, MotionValue, useMotionValueEvent } from "framer-motion";
 type ScrollNoticeProps = {
     scrollYProgress: MotionValue<number>;
