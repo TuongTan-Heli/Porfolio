@@ -80,8 +80,7 @@ const Story = () => {
                                 case "image":
                                     return React.createElement(
                                         block.tag,
-                                        { className: block.class, key: i, src: block.src },
-                                        block.content
+                                        { className: block.class, key: i,tile:block.name, src: block.src },
                                     );
                                 default:
                                     return null;
