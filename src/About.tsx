@@ -84,7 +84,7 @@ const About = () => {
           <GrCertificate />
         ]}
       />
-      <ScrollNotice />
+      <ScrollNotice scrollYProgress={useTransform(containerProgress, [0, 1], [0, 100])} />
       <Header />
       <div className="container mx-auto p-4 h-screen items-center gap-4 grid grid-cols-1 md:grid-cols-3" ref={aboutContainerRef}>
         <img

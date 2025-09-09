@@ -1,36 +1,28 @@
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-export default function ScrollNotice() {
+import { motion, AnimatePresence, MotionValue, useMotionValueEvent } from "framer-motion";
+type ScrollNoticeProps = {
+    scrollYProgress: MotionValue<number>;
+};
+export default function ScrollNotice({ scrollYProgress }: ScrollNoticeProps) {
     const [show, setShow] = useState(false);
     const [timeoutId, setTimeoutId] = useState<ReturnType<typeof setTimeout> | null>(null);
+    // const [progress, setProgress] = useState(0);
 
-    useEffect(() => {
-        const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            const scrollHeight = document.documentElement.scrollHeight;
-            const clientHeight = window.innerHeight;
+    useMotionValueEvent(scrollYProgress, "change", (latest) => {
+        const progressValue = latest
+        // setProgress(progressValue);
 
-            const atTop = scrollTop === 0;
-            const atBottom = Math.ceil(scrollTop + clientHeight) >= scrollHeight;
+        const atTop = progressValue === 0;
+        const atBottom = progressValue >= 95;
 
-            setShow(false);
-            if (timeoutId) clearTimeout(timeoutId);
+        setShow(false);
+        if (timeoutId) clearTimeout(timeoutId);
 
-            if (!atTop && !atBottom) {
-                const id = setTimeout(() => setShow(true), 5000);
-                setTimeoutId(id);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-            if (timeoutId) clearTimeout(timeoutId);
-        };
-    }, []);
-
+        if (!atTop && !atBottom) {
+            const id = setTimeout(() => setShow(true), 5000);
+            setTimeoutId(id);
+        }
+    });
     return (
         <AnimatePresence>
             {show && (
@@ -41,10 +33,9 @@ export default function ScrollNotice() {
                     exit={{ opacity: 0, y: 20 }}
                     transition={{ duration: 0.4 }}
                     className="fixed bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2
-             bg-black/40 text-white text-sm px-4 py-2 rounded-full shadow-lg backdrop-blur-sm z-10"
-                >
+             bg-black/40 text-white text-sm px-4 py-2 rounded-full shadow-lg backdrop-blur-sm z-10">
                     <motion.span
-                        animate={{ y: [0, 6, 0 ,6 , 0] }}
+                        animate={{ y: [0, 6, 0, 6, 0] }}
                         transition={{
                             duration: 1,
                             repeat: Infinity,

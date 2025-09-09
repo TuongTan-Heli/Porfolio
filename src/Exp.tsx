@@ -6,6 +6,7 @@ import CustomCursor from "./components/customcursor";
 import expData from './data/exp.json';
 import { iconMap } from './components/icons';
 import './style/Style.css';
+import ScrollNotice from "./components/scrollNotice";
 
 const PAGE_SIZE = 4;
 const PAGE_SIZE_MOBILE = 2;
@@ -32,7 +33,6 @@ export default function Exp() {
 
   const pageSize = isMobile ? PAGE_SIZE_MOBILE : PAGE_SIZE;
 
-  // chunk experiences into pages
   const pages = [];
   for (let i = 0; i < expData.experiences.length; i += pageSize) {
     pages.push(expData.experiences.slice(i, i + pageSize));
@@ -40,11 +40,12 @@ export default function Exp() {
 
   const bgColor = useTransform(scrollYProgress, [0, 1], ["#151517", "#484c69"]);
 
+
   return (
     <motion.div style={{ backgroundColor: bgColor }} ref={containerRef}>
       <Header />
+      <ScrollNotice scrollYProgress={useTransform(scrollYProgress, [0, 1], [0, 100])} />
       <CustomCursor />
-
       <section className="flex items-center justify-center h-screen">
         <motion.h1
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold
