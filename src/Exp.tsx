@@ -7,6 +7,7 @@ import expData from './data/exp.json';
 import { iconMap } from './components/icons';
 import './style/Style.css';
 import ScrollNotice from "./components/scrollNotice";
+import { FaGithub } from "react-icons/fa";
 
 const PAGE_SIZE = 4;
 const PAGE_SIZE_MOBILE = 2;
@@ -88,6 +89,16 @@ function Page({ experiences }: { experiences: any[] }) {
         <div className="bg-gradient-to-br from-purple-700/70 via-indigo-500/60 to-slate-700/80 p-4">
           <h2 className="text-lg md:text-xl font-semibold text-white">{exp.name}</h2>
           <span className="text-xs md:text-sm">{exp.time}</span>
+          {exp.git && (
+            <a
+              href={exp.git}
+              className="absolute top-4 right-4 flex items-center justify-center"
+              target="_blank"
+              rel="noopener noreferrer">
+              <FaGithub />
+            </a>
+          )}
+
         </div>
 
         <div className="flex flex-col flex-1 p-4 gap-3 overflow-y-auto">
