@@ -66,8 +66,8 @@ const Story = () => {
                     </a>
                 </div>
                 <div className="flex flex-col md:col-span-2 order-2 md:order-1 gap-4">
-                    <h2 className='text-xl'>{post.description}</h2>
                     <span className='text-sm'>Posted on {post.date}</span>
+                    <h2 className='text-xl'>{post.description}</h2>
                     {post.contentBlocks.map((block: any, i: number) => {
                         const renderBlock = () => {
                             switch (block.type) {
@@ -78,10 +78,14 @@ const Story = () => {
                                         block.content
                                     );
                                 case "image":
-                                    return React.createElement(
-                                        block.tag,
-                                        { className: block.class, key: i,tile:block.name, src: block.src },
-                                    );
+                                    return (<div>
+                                        {React.createElement(
+
+                                            block.tag,
+                                            { className: block.class, key: i, tile: block.title, src: block.src },
+                                        )}
+                                        <span className="text-xs">{block.title}</span>
+                                    </div>);
                                 default:
                                     return null;
                             }

@@ -1,32 +1,131 @@
 {
     "posts": [
         {
-            "title": "Lorem Ipsum",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+            "status": "published",
+            "title": "Netcompany - Lessons From My Early Developer Journey",
+            "description": "Starting out in tech isn’t easy—but it’s full of lessons. From fixing my first bug to collaborating on global projects, balancing work-life challenges, and growing beyond coding, here’s how my early career shaped me.",
             "contentBlocks": [
                 {
-                    "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "tag": "h2",
+                    "content": "A Blank Page at the Start.",
                     "type": "content",
-                    "class": ""
+                    "class": "font-bold text-2xl"
+                },
+                {
+                    "tag": "p",
+                    "content": "Everyone has a tough start in their career, and mine was no exception. When I first began, it truly felt like opening a blank page. I didn’t know much at the time, but I was fortunate to be guided and trained by some incredibly talented IT professionals. That made the beginning both challenging and memorable.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "I still remember my very first task: fixing a small UI bug. What seemed simple at first turned into a whole learning journey. My lead spent almost an entire day walking me through each step—from setting up the environment, to understanding the project structure, deployment process, preparing reports, and even updating documentation. These were things I had never learned in university, but they became the foundation for everything that followed.",
+                    "type": "content",
+                    "class": "indent-4"
                 },
                 {
                     "tag": "img",
                     "type": "image",
                     "class": "",
-                    "name":"nc-1",
-                    "src":"./assets/nc-1.jpg"
+                    "title": "Attending year end party",
+                    "src": "./assets/nc-1.jpg"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Beyond Just Development",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
                 },
                 {
                     "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "content": "At first, I thought being a developer was all about writing code. But I quickly realized the role goes far beyond that. My work soon expanded into areas like consulting with clients, reviewing pull requests, onboarding new teammates, analyzing problems, clarifying requirements, and troubleshooting issues.",
                     "type": "content",
-                    "class": ""
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "There were days when I hardly wrote a single line of code—instead, I spent most of my time communicating with clients, supporting teammates, and assisting testers and QAs in their processes. Along the way, I had the chance to meet amazing people, both locally and globally, who set strong examples for me. Working with them taught me not just about technology, but also about professionalism, collaboration, and teamwork.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Learning from Big Projects",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
+                },
+                {
+                    "tag": "p",
+                    "content": "I was lucky enough to gain hands-on experience with large, global projects for different firms and industries at Netcompany. These weren’t small experiments—they were complex systems where I had to understand how different parts of the workflow connected.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "Collaborating with international teams gave me the chance to observe different working styles and adopt new habits. One of the biggest lessons during this time was about work-life balance.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "img",
+                    "type": "image",
+                    "class": "",
+                    "title": "Me doing code ^^",
+                    "src": "./assets/me-doing-code.jpeg"
+                },
+                {
+                    "tag": "p",
+                    "content": "In the beginning, I often carried my work home with me, which is considered quite normal for many Vietnamese developers (and in some places around the world too). But my overseas teammates noticed and gently encouraged me to leave unfinished tasks for the next day. They showed me the importance of setting healthy boundaries and maintaining a sustainable rhythm. That advice stayed with me, and I believe it made me not only a better developer but also a happier one.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Mentoring, Growth, and Performance",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
+                },
+                {
+                    "tag": "p",
+                    "content": "Mentoring and performance reviews also played a big role in shaping my career. They gave me a mirror—and a clear set of criteria—to evaluate how I was performing and where I could improve.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "Over time, I became more consistent in following coding standards, paying closer attention to detail, and delivering higher-quality results. On the technical side, my code became cleaner, more efficient, and aligned with clean code principles.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "But the most noticeable growth was in my management skills. With constructive feedback from colleagues, I learned to deliver tasks on time, juggle multiple responsibilities, and approach both co-workers and clients with professionalism.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Looking Back",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
+                },
+                {
+                    "tag": "p",
+                    "content": "When I look back, I see a journey full of challenges, growth, and countless valuable lessons. I truly appreciate the time I spent at Netcompany, and I’m grateful for all the help I received along the way.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "That foundation has shaped me into who I am today and given me the confidence to continue growing in my career. And as I look ahead, I’m excited about where the next chapters will take me.",
+                    "type": "content",
+                    "class": "indent-4"
                 }
             ],
             "date": "10-Sep-25"
         },
         {
+            "status": "unpublished",
             "title": "Lorem Ipsum",
             "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
             "contentBlocks": [
@@ -52,6 +151,7 @@
             "date": "09-Sep-25"
         },
         {
+            "status": "unpublished",
             "title": "Lorem Ipsum",
             "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
             "contentBlocks": [
@@ -77,6 +177,7 @@
             "date": "09-Sep-25"
         },
         {
+            "status": "unpublished",
             "title": "Lorem Ipsum",
             "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
             "contentBlocks": [

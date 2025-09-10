@@ -45,7 +45,7 @@ const Stories = () => {
           </a>
         </div>
         <div className="md:col-span-2 space-y-6 order-2 md:order-1">
-          {posts.posts.map((post, i) => (
+          {posts.posts.filter(x=>x.status === "published").map((post, i) => (
             <div
               onClick={() => navigate("/story", { state: { post } })}
               key={i}
