@@ -15,6 +15,7 @@ import { iconMap } from './components/icons'
 import { FaCode, FaUserCircle } from 'react-icons/fa';
 import { GrCertificate } from 'react-icons/gr';
 import ScrollNotice from './components/scrollNotice';
+import { Analytics } from "@vercel/analytics/next"
 
 const About = () => {
   const stackContainerRef = useRef<HTMLDivElement>(null);
@@ -76,6 +77,7 @@ const About = () => {
   };
   return (
     <motion.div style={{ backgroundColor: bgColor, background: '#151517' }} ref={containerRef}>
+      <Analytics/>
       <Navigator
         reflist={[aboutContainerRef, stackContainerRef, EducationContainerRef]}
         iconlist={[

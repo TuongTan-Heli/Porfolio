@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { CiMail } from 'react-icons/ci';
 import { useLocation, useNavigate } from 'react-router-dom';
 import React from 'react';
-
+import { Analytics } from "@vercel/analytics/next"
 const Story = () => {
     const location = useLocation();
     const { post } = location.state || {};
@@ -17,6 +17,7 @@ const Story = () => {
     return (
 
         <motion.div className='bg-[#151517] min-h-screen'>
+            <Analytics/>
             <Header />
 
             <div className='container mx-auto p-6'>

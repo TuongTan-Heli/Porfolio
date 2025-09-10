@@ -7,10 +7,12 @@ import posts from './data/posts.json'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { CiMail } from 'react-icons/ci';
 import { useNavigate } from 'react-router-dom';
+import { Analytics } from "@vercel/analytics/next"
 const Stories = () => {
   const navigate = useNavigate();
   return (
     <motion.div className='bg-[#151517] min-h-screen'>
+      <Analytics />
       <Header />
       <motion.h1
         className=" text-md md:text-2xl font-extrabold
