@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { CiMail } from 'react-icons/ci';
 import { useLocation, useNavigate } from 'react-router-dom';
 import React from 'react';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 const Story = () => {
     const location = useLocation();
     const { post } = location.state || {};

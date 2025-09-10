@@ -15,7 +15,7 @@ import { iconMap } from './components/icons'
 import { FaCode, FaUserCircle } from 'react-icons/fa';
 import { GrCertificate } from 'react-icons/gr';
 import ScrollNotice from './components/scrollNotice';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 
 const About = () => {
   const stackContainerRef = useRef<HTMLDivElement>(null);

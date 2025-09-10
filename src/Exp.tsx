@@ -8,7 +8,7 @@ import { iconMap } from './components/icons';
 import './style/Style.css';
 import ScrollNotice from "./components/scrollNotice";
 import { FaGithub } from "react-icons/fa";
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 
 const PAGE_SIZE = 4;
 const PAGE_SIZE_MOBILE = 2;

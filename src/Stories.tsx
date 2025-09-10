@@ -7,7 +7,7 @@ import posts from './data/posts.json'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { CiMail } from 'react-icons/ci';
 import { useNavigate } from 'react-router-dom';
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 const Stories = () => {
   const navigate = useNavigate();
   return (
