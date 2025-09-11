@@ -9,7 +9,9 @@ import './style/Style.css';
 import ScrollNotice from "./components/scrollNotice";
 import { FaGithub } from "react-icons/fa";
 import { Analytics } from '@vercel/analytics/react';
-
+import { CiLink } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
+import posts from './data/posts.json'
 const PAGE_SIZE = 4;
 const PAGE_SIZE_MOBILE = 2;
 
@@ -45,7 +47,7 @@ export default function Exp() {
 
   return (
     <motion.div style={{ backgroundColor: bgColor }} ref={containerRef}>
-      <Analytics/>
+      <Analytics />
       <Header />
       <ScrollNotice scrollYProgress={useTransform(scrollYProgress, [0, 1], [0, 100])} />
       <CustomCursor />
@@ -83,7 +85,7 @@ function Page({ experiences }: { experiences: any[] }) {
 
   function ExperienceItem({ exp, scrollYProgress, start, end }: { exp: any; scrollYProgress: any; start: any; end: any }) {
     const opacity = useTransform(scrollYProgress, [start, end], [0, 1]);
-
+    const navigate = useNavigate();
     return (
       <motion.div
         className="flex flex-col rounded-2xl bg-white/10 backdrop-blur-sm shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
@@ -91,15 +93,32 @@ function Page({ experiences }: { experiences: any[] }) {
         <div className="bg-gradient-to-br from-purple-700/70 via-indigo-500/60 to-slate-700/80 p-4">
           <h2 className="text-lg md:text-xl font-semibold text-white">{exp.name}</h2>
           <span className="text-xs md:text-sm">{exp.time}</span>
-          {exp.git && (
-            <a
-              href={exp.git}
-              className="absolute top-4 right-4 flex items-center justify-center"
-              target="_blank"
-              rel="noopener noreferrer">
-              <FaGithub />
-            </a>
-          )}
+          <div className="absolute top-4 right-4 flex gap-2">
+            {exp.git && (
+              <a
+                href={exp.git}
+                className="flex items-center justify-center"
+                target="_blank"
+                rel="noopener noreferrer">
+                <FaGithub />
+              </a>
+            )}
+            {exp.link && posts.posts.find((x) => x.title === exp.link) && (
+              <a
+                onClick={() => {
+                  navigate("/story", {
+                    state: { post: posts.posts.find((x) => x.title === exp.link) },
+                  });
+                  window.scrollTo(0, 0)
+                }
+                }
+                className="flex items-center justify-center"
+                target="_blank"
+                rel="noopener noreferrer">
+                <CiLink />
+              </a>
+            )}
+          </div>
 
         </div>
 

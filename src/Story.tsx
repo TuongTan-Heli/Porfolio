@@ -17,7 +17,7 @@ const Story = () => {
     return (
 
         <motion.div className='bg-[#151517] min-h-screen'>
-            <Analytics/>
+            <Analytics />
             <Header />
 
             <div className='container mx-auto p-6'>
@@ -87,6 +87,15 @@ const Story = () => {
                                         )}
                                         <span className="text-xs">{block.title}</span>
                                     </div>);
+                                case "list":
+                                    return (
+                                        React.createElement(
+                                            block.tag,
+                                            { className: block.class, key: i },
+                                            "• " + block.content
+                                        )
+
+                                    )
                                 default:
                                     return null;
                             }
