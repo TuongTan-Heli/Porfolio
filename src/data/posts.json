@@ -327,56 +327,85 @@
             "date": "11-Sep-25"
         },
         {
-            "status": "unpublished",
-            "title": "Lorem Ipsum",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
+            "status": "published",
+            "title": "Building My Foundation in Tech at University of Greenwich",
+            "description": "Every developer has a starting point, and for me, it began with the most basic console applications. Nothing fancy, just lines of code running in the terminal, but those small steps opened the door to a whole new world.",
             "contentBlocks": [
                 {
                     "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "content": "At university, I was introduced to the fundamentals of software development: cloud computing basics, data structures, security concepts, diagrams, user flows, and test cases. I also learned to look at software from different perspectives, from UI/UX design to user requirements analysis. And somewhere along the way, I discovered the joy (and frustration) of solving algorithms.",
                     "type": "content",
-                    "class": ""
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Hands-On Coding",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
                 },
                 {
                     "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "content": "Theory was important, but what really stuck with me was practice. I got hands-on experience with Java and C#, and eventually started building web applications using .NET MVC. Those projects taught me more than syntax, they showed me how all the moving pieces of a system come together.",
                     "type": "content",
-                    "class": ""
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "A Break That Became a Chance",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
                 },
                 {
                     "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                    "content": "Like many people, I went through a difficult pandemic period where things slowed down. At first, it felt tough, but it turned out to be a blessing in disguise. The break gave me precious time to work on personal projects, explore new technologies, evaluate myself and my skills. I’m grateful for that oppoturnity gave me space to grow beyond the classroom.",
                     "type": "content",
-                    "class": ""
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "h2",
+                    "content": "Leading a Team Project",
+                    "type": "content",
+                    "class": "font-bold text-2xl"
+                },
+                {
+                    "tag": "p",
+                    "content": "One of the highlights of my university years was leading a team of six to develop a web application that covered all stages of the Software Development Life Cycle (SDLC).",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "img",
+                    "type": "image",
+                    "class": "",
+                    "title": "My graduation ^^",    
+                    "src": "./assets/uni_grad.jpg"
+                },
+                {
+                    "tag": "p",
+                    "content": "At first, it was overwhelming. I had to handle bunch of works, such as manage tasks and timelines, fill in gaps in knowledge for my teammates, plan and write documentation, report progress to lecturers, track performance and evaluate results.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "Although being kept in a tight schedule, it turned out to be one of the most rewarding experiences. I learned how to balance leadership with teamwork, how to stay accountable, and how to bring a project from idea to execution.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "From writing console apps to leading a team project, my university journey was full of challenges, but also full of growth. It gave me a strong foundation not only in coding, but also in problem-solving, collaboration, and project management.",
+                    "type": "content",
+                    "class": "indent-4"
+                },
+                {
+                    "tag": "p",
+                    "content": "It wasn’t always easy, but it was always worth it. And in many ways, those early experiences shaped the way I approach software development today.",
+                    "type": "content",
+                    "class": "indent-4"
                 }
             ],
-            "date": "09-Sep-25"
-        },
-        {
-            "status": "unpublished",
-            "title": "Lorem Ipsum",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit",
-            "contentBlocks": [
-                {
-                    "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                    "type": "content",
-                    "class": ""
-                },
-                {
-                    "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                    "type": "content",
-                    "class": ""
-                },
-                {
-                    "tag": "p",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                    "type": "content",
-                    "class": ""
-                }
-            ],
-            "date": "09-Sep-25"
+            "date": "16-Sep-25"
         }
     ]
 }
