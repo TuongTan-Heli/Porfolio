@@ -197,7 +197,7 @@ const About = () => {
           animate={isInTextView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 1, ease: "easeInOut", delay: 0.5 }}
         >
-          Yet, I always eager to tackle new challenges and learn new technologies.
+          Yet, I'm always eager to tackle new challenges and learn new technologies.
         </motion.h1>
       </div>
       <div
