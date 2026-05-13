@@ -9,6 +9,11 @@
             "name": "AEM Professional: Adobe Experience Manager Sites Developer",
             "time": "Jul 2024",
             "description": "Adobe Certified Professional - Adobe Experience Manager Sites Developer exam validates that the candidate has the knowledge and skills to work with Adobe Experience Manager (AEM) as a developer."
+        },
+        {
+            "name": "AWS Certified Cloud Practitioner",
+            "time": "May 2026",
+            "description": "AWS Certified Cloud Practitioner exam validates that the candidate has the knowledge and skills to work with Amazon Web Services (AWS) as a practitioner."
         }
         
     ]

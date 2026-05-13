@@ -10,11 +10,10 @@ import { GrGraphQl } from "react-icons/gr";
 import { TbSql } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
 import { SiGooglecloud } from "react-icons/si";
+import { FaAmazon } from "react-icons/fa";
 import { FaAlgolia } from "react-icons/fa6";
 import { BiLogoVisualStudio } from "react-icons/bi";
 import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaBitbucket } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { DiFirebase, DiMsqlServer } from "react-icons/di";
 import { DiMysql } from "react-icons/di";
@@ -43,11 +42,10 @@ export const iconMap: Record<string, any> = {
   TbSql: TbSql,
   VscAzureDevops: VscAzureDevops,
   SiGooglecloud: SiGooglecloud,
+  FaAmazon: FaAmazon,
   FaAlgolia: FaAlgolia,
   BiLogoVisualStudio: BiLogoVisualStudio,
   FaGitAlt: FaGitAlt,
-  FaGithub: FaGithub,
-  FaBitbucket: FaBitbucket,
   FaNodeJs: FaNodeJs,
   DiMsqlServer: DiMsqlServer,
   DiMysql: DiMysql,
