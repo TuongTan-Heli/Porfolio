@@ -1,43 +1,6 @@
 {
     "experiences": [
         {
-            "name": "Data Migration system",
-            "time": "Jul 2024 - Feb 2025",
-            "company": "Netcompany A/S",
-            "title": ".NET Developer",
-            "description": "Designed and implemented data migration pipelines",
-            "stack": [
-                {
-                    "name": ".NET C#",
-                    "logo": "TbBrandCSharp",
-                    "type": ""
-                },
-                {
-                    "name": "RestFUL API",
-                    "logo": "GrTechnology",
-                    "type": ""
-                },
-                {
-                    "name": "SQL Server",
-                    "logo": "DiMsqlServer",
-                    "type": ""
-                },
-                {
-                    "name": "Azure",
-                    "logo": "VscAzureDevops",
-                    "type": ""
-                }
-            ],
-            "work": [
-                "Data migration pipelines",
-                "High security",
-                "Data validation/enrichment",
-                "Fast & stable"
-            ],
-            "link": "",
-            "git": ""
-        },
-        {
             "name": "AEM Web development",
             "time": "Jul 2022 - Jul 2024",
             "company": "Netcompany A/S",
@@ -117,8 +80,47 @@
                     "type": ""
                 }
             ],
-            "work": ["Explore how Agile principles are applied across the entire software development lifecycle, from planning and development to testing and delivery."],
+            "work": [
+                "Explore how Agile principles are applied across the entire software development lifecycle, from planning and development to testing and delivery."
+            ],
             "link": "My First Business Trip: Lessons From a Training in Denmark",
+            "git": ""
+        },
+        {
+            "name": "Data Migration system",
+            "time": "Jul 2024 - Feb 2025",
+            "company": "Netcompany A/S",
+            "title": ".NET Developer",
+            "description": "Designed and implemented data migration pipelines",
+            "stack": [
+                {
+                    "name": ".NET C#",
+                    "logo": "TbBrandCSharp",
+                    "type": ""
+                },
+                {
+                    "name": "RestFUL API",
+                    "logo": "GrTechnology",
+                    "type": ""
+                },
+                {
+                    "name": "SQL Server",
+                    "logo": "DiMsqlServer",
+                    "type": ""
+                },
+                {
+                    "name": "Azure",
+                    "logo": "VscAzureDevops",
+                    "type": ""
+                }
+            ],
+            "work": [
+                "Data migration pipelines",
+                "High security",
+                "Data validation/enrichment",
+                "Fast & stable"
+            ],
+            "link": "",
             "git": ""
         },
         {
