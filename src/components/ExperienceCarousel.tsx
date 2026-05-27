@@ -136,7 +136,7 @@ export default function ExperienceCarousel<T>({
             aria-label={prevButtonLabel}
             onClick={goPrev}
             disabled={atStart}
-            className={`fixed left-0 top-0 h-svh w-12 z-50 lg:block sm:hidden flex items-center justify-center text-white backdrop-blur-sm transition-opacity duration-200 ${
+            className={`fixed left-0 top-0 h-svh w-12 z-50 hidden md:flex items-center justify-center text-white backdrop-blur-sm transition-opacity duration-200 ${
               atStart ? "opacity-20 cursor-not-allowed" : "opacity-80 hover:opacity-100"
             }`}
             style={{ background: "linear-gradient(90deg, rgba(0,0,0,0.35), rgba(0,0,0,0))" }}
@@ -148,7 +148,7 @@ export default function ExperienceCarousel<T>({
             aria-label={nextButtonLabel}
             onClick={goNext}
             disabled={atEnd}
-            className={`fixed right-0 top-0 h-svh w-12 z-50 lg:block sm:hidden flex items-center justify-center text-white backdrop-blur-sm transition-opacity duration-200 ${
+            className={`fixed right-0 top-0 h-svh w-12 z-50 hidden md:flex items-center justify-center text-white backdrop-blur-sm transition-opacity duration-200 ${
               atEnd ? "opacity-20 cursor-not-allowed" : "opacity-80 hover:opacity-100"
             }`}
             style={{ background: "linear-gradient(270deg, rgba(0,0,0,0.35), rgba(0,0,0,0))" }}
