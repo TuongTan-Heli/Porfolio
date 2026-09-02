@@ -26,6 +26,9 @@ import { FaConfluence } from "react-icons/fa";
 import { GrTechnology } from "react-icons/gr";
 import { SiAdobe } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";
+import { SiMongodb } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { SiGooglegemini } from "react-icons/si";
 
 
 export const iconMap: Record<string, any> = {
@@ -58,5 +61,8 @@ export const iconMap: Record<string, any> = {
   FaConfluence: FaConfluence,
   GrTechnology: GrTechnology,
   SiAdobe: SiAdobe,
-  TbBrandFramerMotion: TbBrandFramerMotion
+  TbBrandFramerMotion: TbBrandFramerMotion,
+  SiMongodb: SiMongodb,
+  FaAws: FaAws,
+  SiGooglegemini: SiGooglegemini,
 };

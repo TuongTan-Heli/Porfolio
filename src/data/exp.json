@@ -99,7 +99,7 @@
                     "type": ""
                 },
                 {
-                    "name": "RestFUL API",
+                    "name": "RestFUL APIs",
                     "logo": "GrTechnology",
                     "type": ""
                 },
@@ -125,7 +125,7 @@
         },
         {
             "name": "Utilies",
-            "time": "Apr 2025 - Present",
+            "time": "Apr 2025 - Dec 2025",
             "company": "Personal project",
             "title": "Full stack developer",
             "description": "Designed and developed mobile application that combines multiple features.",
@@ -146,7 +146,7 @@
                     "type": "Frontend"
                 },
                 {
-                    "name": "RestFUL API",
+                    "name": "RestFUL APIs",
                     "logo": "GrTechnology",
                     "type": ""
                 },
@@ -224,6 +224,68 @@
             ],
             "link": "",
             "git": "https://github.com/TuongTan-Heli/Porfolio"
+        },
+        {
+            "name": "Travel Planner",
+            "time": "Jul 2026 - Sep 2026",
+            "company": "Personal project",
+            "title": "Full stack developer",
+            "description": "Developed SPA web application with AI integration that helps users plan their trips",
+            "stack": [
+                {
+                    "name": "Reactjs",
+                    "logo": "IoLogoReact",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "TypeScript",
+                    "logo": "SiTypescript",
+                    "type": ""
+                },
+                {
+                    "name": "HTML5",
+                    "logo": "FaHtml5",
+                    "type": "Frontend"
+                },
+                {
+                    "name": "Css",
+                    "logo": "IoLogoCss3",
+                    "type": "Frontend"
+                },
+                {
+                    "name": ".NET C#",
+                    "logo": "TbBrandCSharp",
+                    "type": ""
+                },
+                {
+                    "name": "RestFUL APIs",
+                    "logo": "GrTechnology",
+                    "type": ""
+                },
+                {
+                    "name": "AWS",
+                    "logo": "FaAws",
+                    "type": ""
+                },
+                {
+                    "name": "Gemini OpenAI",
+                    "logo": "SiGooglegemini",
+                    "type": ""
+                },
+                {
+                    "name": "MongoDB",
+                    "logo": "SiMongodb",
+                    "type": ""
+                }
+            ],
+            "work": [
+                "Understands user preferences and constraints to generate personalized travel itineraries",
+                "Multi-stage LLM workflow",
+                "Integrates with AI models for intelligent trip planning",
+                "Use real world data APIs to provide accurate and up-to-date information for travel planning"
+            ],
+            "link": "https://travel-planner-olive-pi.vercel.app/",
+            "git": "https://github.com/TuongTan-Heli/Travel-Planner"
         }
     ]
 }
