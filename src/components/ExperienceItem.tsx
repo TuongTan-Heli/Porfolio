@@ -22,11 +22,8 @@ export default function ExperienceItem({ exp, isActive, index, direction, setAct
             layout
             initial={false}
             animate={{
-                // width: isActive ? "100%" : "40px", flexGrow: isActive ? 1 : 0,
-                // flexShrink: 0,
                 width: isActive ? "auto" : "40px",
                 flex: isActive ? "1 1 0%" : "0 0 36px",
-                // flexBasis: isActive ? "0%" : "40px",
             }}
             transition={{
                 type: "spring",
@@ -139,7 +136,7 @@ export default function ExperienceItem({ exp, isActive, index, direction, setAct
                                 </h3>
 
                                 <ul className="space-y-3">
-                                    {exp.work.map((work, workIndex) => (
+                                    {exp.work.map((work: any, workIndex: any) => (
                                         <motion.li
                                             key={workIndex}
                                             initial={{ opacity: 0, y: 8 }}
@@ -165,7 +162,7 @@ export default function ExperienceItem({ exp, isActive, index, direction, setAct
                                 </h3>
 
                                 <div className="flex flex-wrap gap-2">
-                                    {exp.stack.map((tech, idx) => {
+                                    {exp.stack.map((tech: any, idx: any) => {
                                         const Icon = iconMap[tech.logo];
                                         return (
                                             <div key={idx} className="group relative">

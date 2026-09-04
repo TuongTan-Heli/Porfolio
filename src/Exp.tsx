@@ -8,7 +8,6 @@ import './style/Style.css';
 import ScrollNotice from "./components/scrollNotice";
 import { Analytics } from '@vercel/analytics/react';
 import ExperienceCarousel from "./components/ExperienceCarousel";
-import ExperienceItem from "./components/ExperienceItem";
 
 
 export default function Exp() {
